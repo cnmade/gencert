@@ -7,3 +7,16 @@ You can install it from
 ```bash
 go install github.com/cnmade/gencert@master
 ```
+
+
+## Usage
+
+To use gencert to generate your cert
+
+you need to run 
+
+```bash
+./gencert -host=pandas.dev.com 
+```
+
+the host argument is the host name of the certs will match.
